@@ -1,0 +1,5 @@
+<div>WEATHER Boston</div>
+
+<div>{{ weather$ | async | json }}</div>
+
+<div *ngIf="error">{{ error }}</div>
